@@ -358,16 +358,7 @@ $(function () {
 
     if (!Object.values(errors).every(error => error === '')) return;
 
-    if (
-      firstName &&
-      lastName &&
-      gender &&
-      nin &&
-      dob &&
-      phone &&
-      address &&
-      date
-    ) {
+    if (firstName && lastName && gender && nin && dob && phone && address) {
       Swal.fire({
         title: 'Schedule Successful',
         text: 'You have successfully scheduled an appointment',
