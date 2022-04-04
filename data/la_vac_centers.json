@@ -1,0 +1,1759 @@
+[
+  {
+    "Agege Local Government Area": {
+      "latlng": "6.6252564,3.3112093",
+      "data": [
+        {
+          "healthCenterId": 492,
+          "state": "Lagos State",
+          "lga": "Agege",
+          "healthCenter": "Odunbaku Primary Health Centre",
+          "organizationuit": "ZT1bQMTbjrq"
+        },
+        {
+          "healthCenterId": 493,
+          "state": "Lagos State",
+          "lga": "Agege",
+          "healthCenter": "Dopemu Primary Health Centre ",
+          "organizationuit": "b8t0HjLJ7Qr"
+        },
+        {
+          "healthCenterId": 514,
+          "state": "Lagos State",
+          "lga": "Agege",
+          "healthCenter": "Orile Agege GH",
+          "organizationuit": "z17un7qo0Ye"
+        },
+        {
+          "healthCenterId": 522,
+          "state": "Lagos State",
+          "lga": "Agege",
+          "healthCenter": "Powerline Primary Health Centre",
+          "organizationuit": "OyQJ3BeSBrO"
+        },
+        {
+          "healthCenterId": 524,
+          "state": "Lagos State",
+          "lga": "Agege",
+          "healthCenter": "Sango Primary Health Centre",
+          "organizationuit": "BUUeqEJBPZC"
+        }
+      ]
+    }
+  },
+  {
+    "Ajeromi/Ifelodun Local Government Area": {
+      "latlng": "6.4551217,3.3359463",
+      "data": [
+        {
+          "healthCenterId": 446,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Ajeromi Ifelodun General Hospital",
+          "organizationuit": "tKZMnEvUFo5"
+        },
+        {
+          "healthCenterId": 447,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Akere Primary Health Centre",
+          "organizationuit": "oAWLeyFvBsB"
+        },
+        {
+          "healthCenterId": 494,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Ahmed Bola Tinubu PHC",
+          "organizationuit": "PTsgCuHK8lb"
+        },
+        {
+          "healthCenterId": 495,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Tolu Primary Health Centre",
+          "organizationuit": "gXudgzYCZtc"
+        },
+        {
+          "healthCenterId": 496,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Layeni Primary Health Centre",
+          "organizationuit": "CuzB5dIKoA4"
+        },
+        {
+          "healthCenterId": 509,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Obisesan Naval Hospital",
+          "organizationuit": "w6VlckkkgMT"
+        },
+        {
+          "healthCenterId": 526,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Amukoko Primary Health Centre",
+          "organizationuit": "BknaanqzR9c"
+        },
+        {
+          "healthCenterId": 527,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Ibafon Primary Health Centre",
+          "organizationuit": "obVj0e9KHTM"
+        },
+        {
+          "healthCenterId": 528,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Oridilu Primary Health Centre",
+          "organizationuit": "BcdHJuQVtdB"
+        },
+        {
+          "healthCenterId": 529,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Ajegunle Primary Health Centre",
+          "organizationuit": "kuN4tGmltce"
+        },
+        {
+          "healthCenterId": 530,
+          "state": "Lagos State",
+          "lga": "Ajeromi/Ifelodun",
+          "healthCenter": "Signal Barrack",
+          "organizationuit": "SZHtA74eyV1"
+        }
+      ]
+    }
+  },
+  {
+    "Alimosho Local Government Area": {
+      "latlng": "6.5843429,3.2576311",
+      "data": [
+        {
+          "healthCenterId": 441,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": " Navy Sick Bay",
+          "organizationuit": "v4WXrz1Pnie"
+        },
+        {
+          "healthCenterId": 442,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Agbado Primary Health Centre",
+          "organizationuit": "nBV2KCQEXm9"
+        },
+        {
+          "healthCenterId": 448,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Akonwonjo Primary Health Centre",
+          "organizationuit": "XoJ9NUWg8iu"
+        },
+        {
+          "healthCenterId": 449,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Alimosho General Hospital",
+          "organizationuit": "I9aDJm8QZOB"
+        },
+        {
+          "healthCenterId": 465,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Helen Aderonke Primary Health Centre",
+          "organizationuit": "xAS3TCpnevD"
+        },
+        {
+          "healthCenterId": 489,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Ipaja Primary Health Centre",
+          "organizationuit": "tQfJ1GxKq36"
+        },
+        {
+          "healthCenterId": 490,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Ipinlerere PHC",
+          "organizationuit": "CPlROV7GlWS"
+        },
+        {
+          "healthCenterId": 491,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Isheri Primary Health Centre (Olofin)",
+          "organizationuit": "H0RQxMfEpHq"
+        },
+        {
+          "healthCenterId": 498,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Nigeria Airforce Base (Naf)",
+          "organizationuit": "ngprwRlTLdm"
+        },
+        {
+          "healthCenterId": 500,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Isheri Oshun Primary Health Centre",
+          "organizationuit": "wZb7DIAjXjl"
+        },
+        {
+          "healthCenterId": 501,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Agodo Primary Health Centre",
+          "organizationuit": "pojItpTYYlF"
+        },
+        {
+          "healthCenterId": 502,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Orisunbare Primary Health Centre",
+          "organizationuit": "fclNxR0F9Cs"
+        },
+        {
+          "healthCenterId": 503,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Agbelekale Primary Health Centre",
+          "organizationuit": "EtVw09aD3KR"
+        },
+        {
+          "healthCenterId": 504,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Meran Primary Health Centre",
+          "organizationuit": "z2kG60Aaljs"
+        },
+        {
+          "healthCenterId": 505,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Isefun Primary Health Centre",
+          "organizationuit": "ZVkHZP2s0nE"
+        },
+        {
+          "healthCenterId": 506,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Bada Primary Health Centre",
+          "organizationuit": "p7GyzX18cWX"
+        },
+        {
+          "healthCenterId": 507,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Egan Primary Health Centre",
+          "organizationuit": "WPXnLUBmd5C"
+        },
+        {
+          "healthCenterId": 508,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Ikotun Primary Health Centre",
+          "organizationuit": "FheWgte2Rc8"
+        },
+        {
+          "healthCenterId": 523,
+          "state": "Lagos State",
+          "lga": "Alimosho",
+          "healthCenter": "Rauf Aregbesola Medical Centre",
+          "organizationuit": "nVKtdCbh8cd"
+        }
+      ]
+    }
+  },
+  {
+    "Amuwo Odofin Local Government Area": {
+      "latlng": "6.4470234,3.2662797",
+      "data": [
+        {
+          "healthCenterId": 444,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Agboju Primary Health Centre",
+          "organizationuit": "KAXMFzbRjtB"
+        },
+        {
+          "healthCenterId": 459,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Bola Ahmed Tinubu Primary Health Centre",
+          "organizationuit": "yjqNVPHkpAH"
+        },
+        {
+          "healthCenterId": 464,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Festac Primary Health Centre",
+          "organizationuit": "cgWT9cWEon6"
+        },
+        {
+          "healthCenterId": 499,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Nigerian Navy Ref Hospital",
+          "organizationuit": "MWlPH2wgny2"
+        },
+        {
+          "healthCenterId": 515,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Kirikiri Primary Health Centre",
+          "organizationuit": "NORFlWBxug3"
+        },
+        {
+          "healthCenterId": 516,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "maternal & child center(mcc)",
+          "organizationuit": "f5FQPG4eEL8"
+        },
+        {
+          "healthCenterId": 517,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Mile 2 Primary Health Centre",
+          "organizationuit": "bT224og8azn"
+        },
+        {
+          "healthCenterId": 518,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Ijegun Primary Health Centre",
+          "organizationuit": "GaJnCNA0Yph"
+        },
+        {
+          "healthCenterId": 519,
+          "state": "Lagos State",
+          "lga": "Amuwo Odofin",
+          "healthCenter": "Satellite Primary Health Centre",
+          "organizationuit": "gaOrfibRK2Y"
+        }
+      ]
+    }
+  },
+  {
+    "Apapa Local Government Area": {
+      "latlng": "6.445187,3.3683732",
+      "data": [
+        {
+          "healthCenterId": 461,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Ojora Olugbode PHC",
+          "organizationuit": "CbFq5Y8GCx9"
+        },
+        {
+          "healthCenterId": 462,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "CFAO Clinic",
+          "organizationuit": "cMyX3l1Uv0q"
+        },
+        {
+          "healthCenterId": 485,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Ijora Primary Health Centre",
+          "organizationuit": "jHwo5iXmvBA"
+        },
+        {
+          "healthCenterId": 511,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Zion Primary Health Care Centre",
+          "organizationuit": "XpgFQobmiun"
+        },
+        {
+          "healthCenterId": 512,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Sari Primary Health Centre",
+          "organizationuit": "uCW3Ue1sUFR"
+        },
+        {
+          "healthCenterId": 513,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Olojowon Primary Health Centre",
+          "organizationuit": "rax8qeXT9FW"
+        },
+        {
+          "healthCenterId": 1925,
+          "state": "Lagos State",
+          "lga": "Apapa",
+          "healthCenter": "Oluwole Primary Health Centre",
+          "organizationuit": "rpO2Ca8iKxb"
+        }
+      ]
+    }
+  },
+  {
+    "Badagry Local Government Area": {
+      "latlng": "6.4393223,2.9060324",
+      "data": [
+        {
+          "healthCenterId": 450,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Apa Primary Health Centre",
+          "organizationuit": "Kvu9acJ44Yx"
+        },
+        {
+          "healthCenterId": 451,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Ajara Primary Health Centre",
+          "organizationuit": "Ptc5NB7vyp5"
+        },
+        {
+          "healthCenterId": 452,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Ibereko Primary Health Centre",
+          "organizationuit": "rN1pXyHDsf"
+        },
+        {
+          "healthCenterId": 453,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Ilogbo Primary Health Centre",
+          "organizationuit": "UuT96wT4jSY"
+        },
+        {
+          "healthCenterId": 488,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Ilado Primary Health Centre",
+          "organizationuit": "xcTRGZobGl5"
+        },
+        {
+          "healthCenterId": 497,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Mother and Child Hospital",
+          "organizationuit": "LuYkfQCphlp"
+        },
+        {
+          "healthCenterId": 619,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Seme Primary Health Centre",
+          "organizationuit": "IeQvZYBUKIA"
+        },
+        {
+          "healthCenterId": 1926,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Morogbo Primary Health Centre",
+          "organizationuit": "EVhqFrcDHVi"
+        },
+        {
+          "healthCenterId": 1927,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Ajido Primary Health Centre",
+          "organizationuit": "AsDpYNzERR6"
+        },
+        {
+          "healthCenterId": 1928,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Badagry General Hospital",
+          "organizationuit": "z5n6to4d6Lw"
+        },
+        {
+          "healthCenterId": 1964,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "243 Battalion Medical Reception Station",
+          "organizationuit": "AqTDScz6Eg2"
+        },
+        {
+          "healthCenterId": 1965,
+          "state": "Lagos State",
+          "lga": "Badagry",
+          "healthCenter": "Pota Primary Health Centre",
+          "organizationuit": "Lc3K6i45BYB"
+        }
+      ]
+    }
+  },
+  {
+    "Epe Local Government Area": {
+      "latlng": "6.416667,3.05",
+      "data": [
+        {
+          "healthCenterId": 445,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Agbowa Primary Health Centre",
+          "organizationuit": "eFLGT3hGPb0"
+        },
+        {
+          "healthCenterId": 454,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Papa Primary Health Centre",
+          "organizationuit": "WHWulOZXKiv"
+        },
+        {
+          "healthCenterId": 455,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Eredo Primary Health Centre",
+          "organizationuit": "N2aHcBsSM6H"
+        },
+        {
+          "healthCenterId": 456,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Odomola Primary Health Centre",
+          "organizationuit": "vqKcwVuPise"
+        },
+        {
+          "healthCenterId": 457,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Ketu General Hospital",
+          "organizationuit": "YqXQrH4GTV6"
+        },
+        {
+          "healthCenterId": 463,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Epe Primary Health Centre",
+          "organizationuit": "k1gdrpLwoDD"
+        },
+        {
+          "healthCenterId": 1929,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Afuye Primary Health Centre",
+          "organizationuit": "qlzDgsp3rQe"
+        },
+        {
+          "healthCenterId": 1930,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Sagidan Health Centre",
+          "organizationuit": "uLT9NHUUZPl"
+        },
+        {
+          "healthCenterId": 1931,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Itokin Primary Health Centre",
+          "organizationuit": "nRWMVPNZIuw"
+        },
+        {
+          "healthCenterId": 5113,
+          "state": "Lagos State",
+          "lga": "Epe",
+          "healthCenter": "Erepoto Phc",
+          "organizationuit": "Lagosnga011"
+        }
+      ]
+    }
+  },
+  {
+    "Eti-Osa Local Government Area": {
+      "latlng": "6.4602312,3.5321807",
+      "data": [
+        {
+          "healthCenterId": 458,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Badore Primary Health Centre",
+          "organizationuit": "RkSxhuwFG7l"
+        },
+        {
+          "healthCenterId": 460,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Bonny Camp(65 Bat.)",
+          "organizationuit": "KL4sZ3re0RO"
+        },
+        {
+          "healthCenterId": 484,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Igbo Efon Primary Health Centre",
+          "organizationuit": "BI5NHyklKD3"
+        },
+        {
+          "healthCenterId": 486,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Ikate Primary Health Centre",
+          "organizationuit": "L8IvHOlHxul"
+        },
+        {
+          "healthCenterId": 487,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Ikoyi Primary Health Centre",
+          "organizationuit": "FzYqHvDqkXg"
+        },
+        {
+          "healthCenterId": 510,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Okunmopo Primary Health Centre",
+          "organizationuit": "xDWkV5Pl6Vp"
+        },
+        {
+          "healthCenterId": 520,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Oriyanrin Primary Health Centre (Eti Osa)",
+          "organizationuit": "KtIOyKVu4vC"
+        },
+        {
+          "healthCenterId": 521,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Police Hospital Falomo",
+          "organizationuit": "qP8LZbGC87w"
+        },
+        {
+          "healthCenterId": 525,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Sangotedo Primary Health Centre",
+          "organizationuit": "weClKVdQBeK"
+        },
+        {
+          "healthCenterId": 1932,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "Military Hospital",
+          "organizationuit": "lIHkJ2Yf7r3"
+        },
+        {
+          "healthCenterId": 1933,
+          "state": "Lagos State",
+          "lga": "Eti-Osa",
+          "healthCenter": "81 Division Hospital",
+          "organizationuit": "Ka15SXZragi"
+        }
+      ]
+    }
+  },
+  {
+    "Ibeju/Lekki Local Government Area": {
+      "latlng": "6.4711251,3.8147502",
+      "data": [
+        {
+          "healthCenterId": 466,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Lekki Primary Health Centre",
+          "organizationuit": "mih9ikPrA6S"
+        },
+        {
+          "healthCenterId": 467,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Magbon Segun Primary Health Centre",
+          "organizationuit": "wuLuq3hjj8F"
+        },
+        {
+          "healthCenterId": 468,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Otunla Primary Health Centre",
+          "organizationuit": "iXzzju37e2N"
+        },
+        {
+          "healthCenterId": 469,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Awoyaya PHC 2  (CBHIS)",
+          "organizationuit": "S73S0qg6uKa"
+        },
+        {
+          "healthCenterId": 470,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Ibeju Lekki General Hospital",
+          "organizationuit": "DZE9OPAF0hh"
+        },
+        {
+          "healthCenterId": 471,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Apakin Primary Health Centre",
+          "organizationuit": "GaUVAQGOZn3"
+        },
+        {
+          "healthCenterId": 472,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Ibeju Primary Health Centre",
+          "organizationuit": "qTUBvCZNkdF"
+        },
+        {
+          "healthCenterId": 620,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "FOLU PHC",
+          "organizationuit": "FKr3EvWy3ml"
+        },
+        {
+          "healthCenterId": 1934,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Oko Oba Primary Health Centre",
+          "organizationuit": "zHdT21bqHik"
+        },
+        {
+          "healthCenterId": 1935,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Lakonwe Primary Health Centre",
+          "organizationuit": "sVFn4bXs0j3"
+        },
+        {
+          "healthCenterId": 1936,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Bogije Primary Health Centre",
+          "organizationuit": "yMUwN9l8aob"
+        },
+        {
+          "healthCenterId": 1937,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Iberekodo Primary Health Centre",
+          "organizationuit": "YKgX4UOaYqg"
+        },
+        {
+          "healthCenterId": 1938,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Debojo Primary Health Centre",
+          "organizationuit": "m7gdkoxez6m"
+        },
+        {
+          "healthCenterId": 1939,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Orimedu Primary Health Centre",
+          "organizationuit": "WOZs0s0w8E9"
+        },
+        {
+          "healthCenterId": 1940,
+          "state": "Lagos State",
+          "lga": "Ibeju/Lekki",
+          "healthCenter": "Idasho Primary Health Centre",
+          "organizationuit": "vOnK8P2hirT"
+        }
+      ]
+    }
+  },
+  {
+    "Ifako/Ijaye Local Government Area": {
+      "latlng": "6.660436,3.3215388",
+      "data": [
+        {
+          "healthCenterId": 443,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Agbado Primary Health Centre (Ifako/Ijaye)",
+          "organizationuit": "Tkzt9TvDMHF"
+        },
+        {
+          "healthCenterId": 473,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Ogundimu PHC",
+          "organizationuit": "TUUNrHkJFY6"
+        },
+        {
+          "healthCenterId": 474,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Iju Primary Health Centre",
+          "organizationuit": "hfDwQMOo1Mn"
+        },
+        {
+          "healthCenterId": 475,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Aina Ajobo Primary Health Centre",
+          "organizationuit": "k1XKvXguLmg"
+        },
+        {
+          "healthCenterId": 476,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Ifako Ijaiye General Hospital",
+          "organizationuit": "BMilrTnuGj2"
+        },
+        {
+          "healthCenterId": 477,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Ifako Primary Health Centre",
+          "organizationuit": "hH9gxmPe9k4"
+        },
+        {
+          "healthCenterId": 478,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Abule Titun Primary Health Centre",
+          "organizationuit": "wQWgqzy3RhI"
+        },
+        {
+          "healthCenterId": 479,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Ojokoro Primary Health Centre",
+          "organizationuit": "KRnobV1onvm"
+        },
+        {
+          "healthCenterId": 480,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Isokan Primary Health Centre",
+          "organizationuit": "Zq99I7d1jwk"
+        },
+        {
+          "healthCenterId": 481,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Ajegunle Ilo Primary Health Centre",
+          "organizationuit": "gGBwzxVG8y3"
+        },
+        {
+          "healthCenterId": 482,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Obawole Primary Health Centre",
+          "organizationuit": "qgLSODtwtBb"
+        },
+        {
+          "healthCenterId": 483,
+          "state": "Lagos State",
+          "lga": "Ifako/Ijaye",
+          "healthCenter": "Adesola Primary Health Centre",
+          "organizationuit": "YP5TI9pdmpM"
+        }
+      ]
+    }
+  },
+  {
+    "Ikeja Local Government Area": {
+      "latlng": "6.6048591,3.3532041",
+      "data": [
+        {
+          "healthCenterId": 531,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "9 Brigade Medical Centre",
+          "organizationuit": "hlNjIviKd8Z"
+        },
+        {
+          "healthCenterId": 532,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Opebi Primary Health Centre",
+          "organizationuit": "m8a4Jt3Lqv5"
+        },
+        {
+          "healthCenterId": 533,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Ogba Primary Health Centre",
+          "organizationuit": "OURgYF23doX"
+        },
+        {
+          "healthCenterId": 534,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Oke Ira Central Primary Health Centre",
+          "organizationuit": "NdDi9xEWnQT"
+        },
+        {
+          "healthCenterId": 535,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Ikeja Primary Health Centre",
+          "organizationuit": "qsBu53g1a5D"
+        },
+        {
+          "healthCenterId": 556,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Lagos  State University Teaching Hospital",
+          "organizationuit": "zgk7dmPCFl6"
+        },
+        {
+          "healthCenterId": 572,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Ojodu Primary Health Centre",
+          "organizationuit": "nLBfAC7t8y7"
+        },
+        {
+          "healthCenterId": 575,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Onilekere Primary Health Centre",
+          "organizationuit": "x0vJGx3HSPv"
+        },
+        {
+          "healthCenterId": 576,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Oregun Primary Health Centre",
+          "organizationuit": "bCeKavbllwM"
+        },
+        {
+          "healthCenterId": 624,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Alade Health Post",
+          "organizationuit": "F4Z2v6t1zQ8"
+        },
+        {
+          "healthCenterId": 1941,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Alausa Primary Health Centre",
+          "organizationuit": "MIwbmsVxlP6"
+        },
+        {
+          "healthCenterId": 1942,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Alausa Staff Clinic",
+          "organizationuit": "KauICDVAsAn"
+        },
+        {
+          "healthCenterId": 6583,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Police College Hospital (Area F)",
+          "organizationuit": "lm0BnMBmKC8"
+        },
+        {
+          "healthCenterId": 7775,
+          "state": "Lagos State",
+          "lga": "Ikeja",
+          "healthCenter": "Adeniyi Jones Primary Health Centre",
+          "organizationuit": "bYvl7y0ErRU"
+        }
+      ]
+    }
+  },
+  {
+    "Ikorodu Local Government Area": {
+      "latlng": "6.6191233,3.5041271",
+      "data": [
+        {
+          "healthCenterId": 537,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Ori Okuta Health Centre",
+          "organizationuit": "FN3yQdILNuZ"
+        },
+        {
+          "healthCenterId": 538,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Igbo Olomu Primary Health Centre",
+          "organizationuit": "lxLYIcFGNpL"
+        },
+        {
+          "healthCenterId": 539,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Army Barracks Hospital",
+          "organizationuit": "jlm7gbxrwEx"
+        },
+        {
+          "healthCenterId": 540,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Odo Nla Primary Health Centre",
+          "organizationuit": "vhraYaCXFV0"
+        },
+        {
+          "healthCenterId": 548,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Igbogbo Primary Health Centre",
+          "organizationuit": "pcORtj4ovEM"
+        },
+        {
+          "healthCenterId": 549,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Ikorodu Primary Health Centre",
+          "organizationuit": "zZcDyG4qqyo"
+        },
+        {
+          "healthCenterId": 551,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Imota Primary Health Centre",
+          "organizationuit": "FQ2BilvYY8B"
+        },
+        {
+          "healthCenterId": 552,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Ipakodo Primary Health Centre",
+          "organizationuit": "e9icqnXOhU2"
+        },
+        {
+          "healthCenterId": 573,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Oke Eletu Primary Health Centre",
+          "organizationuit": "qVwhtq28g90"
+        },
+        {
+          "healthCenterId": 1958,
+          "state": "Lagos State",
+          "lga": "Ikorodu",
+          "healthCenter": "Idera Hospital",
+          "organizationuit": "JLiBPFzT0DK"
+        }
+      ]
+    }
+  },
+  {
+    "Kosofe Local Government Area": {
+      "latlng": "6.581974,3.4148359",
+      "data": [
+        {
+          "healthCenterId": 542,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Isheri Primary Health Centre",
+          "organizationuit": "s5bR9lJtUOh"
+        },
+        {
+          "healthCenterId": 543,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Mende Primary Health Centre",
+          "organizationuit": "wz8265pJddn"
+        },
+        {
+          "healthCenterId": 544,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Oworo Primary Health Centre",
+          "organizationuit": "dIVQyUD0ejq"
+        },
+        {
+          "healthCenterId": 545,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Maidan Primary Health Centre",
+          "organizationuit": "lDVabslt7ij"
+        },
+        {
+          "healthCenterId": 546,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Ajegunle Primary Health Centre",
+          "organizationuit": "rFwoZpSbjpL"
+        },
+        {
+          "healthCenterId": 547,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Gbagada General Hospital",
+          "organizationuit": "y40bG5AJnKr"
+        },
+        {
+          "healthCenterId": 550,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Ikosi Primary Health Centre",
+          "organizationuit": "eTGHt9Wbuko"
+        },
+        {
+          "healthCenterId": 554,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Ketu Primary Health Centre",
+          "organizationuit": "cyoLwliujLR"
+        },
+        {
+          "healthCenterId": 571,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Ogudu Primary Health Centre",
+          "organizationuit": "eCmwrXUEt3F"
+        },
+        {
+          "healthCenterId": 623,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Alapere Primary Health Centre",
+          "organizationuit": "w0lREjwcfw2"
+        },
+        {
+          "healthCenterId": 625,
+          "state": "Lagos State",
+          "lga": "Kosofe",
+          "healthCenter": "Agboyi Primary Health Centre",
+          "organizationuit": "pqSeDX1xt9C"
+        }
+      ]
+    }
+  },
+  {
+    "Lagos Island Local Government Area": {
+      "latlng": "6.5148613,3.4908662",
+      "data": [
+        {
+          "healthCenterId": 557,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "City Hall Health Post",
+          "organizationuit": "Rv1Oh2sdXwY"
+        },
+        {
+          "healthCenterId": 558,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Lagos Island Maternity Hospital",
+          "organizationuit": "ueZboML1zns"
+        },
+        {
+          "healthCenterId": 560,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Araromi PHC",
+          "organizationuit": "X8mabKpRguD"
+        },
+        {
+          "healthCenterId": 567,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "PHASE 3 Primary health care",
+          "organizationuit": "vBxff8wQFZy"
+        },
+        {
+          "healthCenterId": 568,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Agarawu Primary Health Centre",
+          "organizationuit": "HSJ8urM58oz"
+        },
+        {
+          "healthCenterId": 569,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Oba Adeyinka Oyekan PHC",
+          "organizationuit": "Sy7AS7qM6s1"
+        },
+        {
+          "healthCenterId": 570,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Isale Gangan Onola Health",
+          "organizationuit": "WW6H3Qkwcdu"
+        },
+        {
+          "healthCenterId": 574,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Olowogbowo Primary Health Centre",
+          "organizationuit": "enU1ToLz6Xr"
+        },
+        {
+          "healthCenterId": 578,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Sura Primary Health Centre",
+          "organizationuit": "jLcwYxWkZcE"
+        },
+        {
+          "healthCenterId": 1959,
+          "state": "Lagos State",
+          "lga": "Lagos Island",
+          "healthCenter": "Nigerian Air Force Medical",
+          "organizationuit": "EngXVLQUtW4"
+        }
+      ]
+    }
+  },
+  {
+    "Lagos Mainland Local Government Area": {
+      "latlng": "6.493061,3.3882496",
+      "data": [
+        {
+          "healthCenterId": 536,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Abule Nla Primary Health Centre",
+          "organizationuit": "smDxSoWstqE"
+        },
+        {
+          "healthCenterId": 541,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Ebute-Metta Federal Medical Centre",
+          "organizationuit": "vlVo42pk0LP"
+        },
+        {
+          "healthCenterId": 553,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Iwaya Primary Health Centre",
+          "organizationuit": "QQA9bcGJbpf"
+        },
+        {
+          "healthCenterId": 555,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Oba Salami Primary Health Centre",
+          "organizationuit": "EfL42wDQdfc"
+        },
+        {
+          "healthCenterId": 559,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Alli Daodu PHC",
+          "organizationuit": "gQR9VcNvbX9"
+        },
+        {
+          "healthCenterId": 561,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Otto Primary Health Centre",
+          "organizationuit": "vAQw3wju7kf"
+        },
+        {
+          "healthCenterId": 562,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Ondo West Primary Health Centre",
+          "organizationuit": "k2lJJSCPBCq"
+        },
+        {
+          "healthCenterId": 563,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Military Hospital",
+          "organizationuit": "orTfZWTBtG5"
+        },
+        {
+          "healthCenterId": 564,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Ayetoro Primary Health Centre",
+          "organizationuit": "QxlcjZisftI"
+        },
+        {
+          "healthCenterId": 565,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Alhaji Kola Osho Primary Health Centre",
+          "organizationuit": "P08UTiOZKXL"
+        },
+        {
+          "healthCenterId": 566,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Nig Sec Printing & Mint Corp Hospital",
+          "organizationuit": "HyrOzKWEw24"
+        },
+        {
+          "healthCenterId": 577,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Simpson Primary Health Centre",
+          "organizationuit": "Eqvi4hJp90E"
+        },
+        {
+          "healthCenterId": 621,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Federal Neuro Psychiatry Hospital",
+          "organizationuit": "MaaAKsx2u7A"
+        },
+        {
+          "healthCenterId": 622,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "UNILAG Medical Centre",
+          "organizationuit": "iLtOWCN8bOr"
+        },
+        {
+          "healthCenterId": 1943,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Otumara Primary Healthcare Centre",
+          "organizationuit": "jLytUfQppVU"
+        },
+        {
+          "healthCenterId": 1944,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "Harvey Road GH",
+          "organizationuit": "EsOAqHTIwMU"
+        },
+        {
+          "healthCenterId": 1945,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "IGBEDE PHC ",
+          "organizationuit": "ShU70Epm3QW"
+        },
+        {
+          "healthCenterId": 1946,
+          "state": "Lagos State",
+          "lga": "Lagos Mainland",
+          "healthCenter": "IRA HEALTH POST",
+          "organizationuit": "ggBxfXt2dnY"
+        }
+      ]
+    }
+  },
+  {
+    "Mushin Local Government Area": {
+      "latlng": "6.5247588,3.3516512",
+      "data": [
+        {
+          "healthCenterId": 611,
+          "state": "Lagos State",
+          "lga": "Mushin",
+          "healthCenter": "Kajola Primary Health Centre",
+          "organizationuit": "rbzQuiQD3Yk"
+        },
+        {
+          "healthCenterId": 612,
+          "state": "Lagos State",
+          "lga": "Mushin",
+          "healthCenter": "Lagos University Teaching Hospital LUTH",
+          "organizationuit": "oKSX6uzajmV"
+        },
+        {
+          "healthCenterId": 617,
+          "state": "Lagos State",
+          "lga": "Mushin",
+          "healthCenter": "Palm Avenue Primary Health Centre",
+          "organizationuit": "RQoLYJIDZZF"
+        },
+        {
+          "healthCenterId": 1960,
+          "state": "Lagos State",
+          "lga": "Mushin",
+          "healthCenter": "Nigeria Armed Forces Resettlement Centre",
+          "organizationuit": "ZSsNsEJrC8X"
+        }
+      ]
+    }
+  },
+  {
+    "Ojo Local Government Area": {
+      "latlng": "6.4624974,3.1657064",
+      "data": [
+        {
+          "healthCenterId": 579,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Igbede Primary Health Centre",
+          "organizationuit": "WkpQOJshP0P"
+        },
+        {
+          "healthCenterId": 580,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Era Primary Health Centre",
+          "organizationuit": "jnBZKSs3NWL"
+        },
+        {
+          "healthCenterId": 581,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Ira Health Post",
+          "organizationuit": "Zue7rfsYSgQ"
+        },
+        {
+          "healthCenterId": 582,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Isashi Primary Health Centre",
+          "organizationuit": "dRp0ybejbNu"
+        },
+        {
+          "healthCenterId": 583,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "149 Battalion Medical Reception Station Ojo",
+          "organizationuit": "w3xh8NDoUDV"
+        },
+        {
+          "healthCenterId": 594,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Iba Primary Health Centre - Ojo",
+          "organizationuit": "TcZG26d78rC"
+        },
+        {
+          "healthCenterId": 607,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Ijanikin Primary Health Centre",
+          "organizationuit": "WA1tCulH2t0"
+        },
+        {
+          "healthCenterId": 608,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Imude Primary Healthcare Centre",
+          "organizationuit": "HAhcFZQrAHw"
+        },
+        {
+          "healthCenterId": 609,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Ishagira Primary Health Centre",
+          "organizationuit": "JeuveQaYNyf"
+        },
+        {
+          "healthCenterId": 613,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Nigeria Navy Sick Bay",
+          "organizationuit": "gSUulRLo1GE"
+        },
+        {
+          "healthCenterId": 614,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Ojo Primary Health Centre",
+          "organizationuit": "DSzYp6FUNW8"
+        },
+        {
+          "healthCenterId": 1947,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Kemberi Primary Healthcare Centre",
+          "organizationuit": "oSOYfas17jO"
+        },
+        {
+          "healthCenterId": 1948,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Shibiri Primary Health Centre",
+          "organizationuit": "ONc0O1fzt0z"
+        },
+        {
+          "healthCenterId": 1949,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Cvd Army Baracks",
+          "organizationuit": "xcAnb3iQZ19"
+        },
+        {
+          "healthCenterId": 1961,
+          "state": "Lagos State",
+          "lga": "Ojo",
+          "healthCenter": "Lasu Health Services",
+          "organizationuit": "xYubQGVjfQQ"
+        },
+        {
+          "healthCenterId": 2912,
+          "state": "Oyo State",
+          "lga": "Ojo",
+          "healthCenter": "Ilogbo Central Hospital",
+          "organizationuit": "kKqklIejdWr"
+        }
+      ]
+    }
+  },
+  {
+    "Oshodi/Isolo Local Government Area": {
+      "latlng": "6.54001,3.3124146",
+      "data": [
+        {
+          "healthCenterId": 584,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "445 Nigerian Airforce Hospital Ikeja",
+          "organizationuit": "rPjv58wvlCv"
+        },
+        {
+          "healthCenterId": 595,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Shogunle Primary Health Centre",
+          "organizationuit": "EDhgvs87q96"
+        },
+        {
+          "healthCenterId": 596,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ewutuntun Primary Health Centre",
+          "organizationuit": "vIJzIeENd4I"
+        },
+        {
+          "healthCenterId": 597,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Dauda Ilo Primary Health Centre",
+          "organizationuit": "W1sj6MuOpBp"
+        },
+        {
+          "healthCenterId": 598,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Onaiwamimo Primary Health Centre",
+          "organizationuit": "UcOHnXZ0lyq"
+        },
+        {
+          "healthCenterId": 599,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ailegun Primary Health Centre",
+          "organizationuit": "kYwg7iPzW3y"
+        },
+        {
+          "healthCenterId": 600,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ajao Primary Health Centre",
+          "organizationuit": "hCoK7el0Syo"
+        },
+        {
+          "healthCenterId": 601,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "LSDPC",
+          "organizationuit": "TdCFVTKiZp3"
+        },
+        {
+          "healthCenterId": 602,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Isolo Primary Health Centre",
+          "organizationuit": "k4FZHM4YG4b"
+        },
+        {
+          "healthCenterId": 603,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ishaga Primary Health Centre",
+          "organizationuit": "M0v2nugPXQI"
+        },
+        {
+          "healthCenterId": 604,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Mafoluku Primary Health Centre",
+          "organizationuit": "KggY3QOxUPn"
+        },
+        {
+          "healthCenterId": 610,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Iyana Ejigbo Primary Health Centre",
+          "organizationuit": "O0y3di1TAcz"
+        },
+        {
+          "healthCenterId": 616,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Oshodi Primary Health Centre",
+          "organizationuit": "zGedrv9VCpT"
+        },
+        {
+          "healthCenterId": 618,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Port Hospital",
+          "organizationuit": "YMmgTj01sia"
+        },
+        {
+          "healthCenterId": 1950,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ayo ni Primary Health Centre",
+          "organizationuit": "ww5FOAXz5Vr"
+        },
+        {
+          "healthCenterId": 1951,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Apena Primary Health Centre",
+          "organizationuit": "TGCXdEVkYl9"
+        },
+        {
+          "healthCenterId": 1952,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Okota Primary Health Centre",
+          "organizationuit": "uKfxOGZ4Ntv"
+        },
+        {
+          "healthCenterId": 1953,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Jakande E Primary Health Centre",
+          "organizationuit": "oTmeZfiGUi5"
+        },
+        {
+          "healthCenterId": 1954,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ilasa Primary Health Centre",
+          "organizationuit": "OQZpPPKv3md"
+        },
+        {
+          "healthCenterId": 1962,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "Ejigbo Primary Health Centre - Fadu",
+          "organizationuit": "unw8rCFECFd"
+        },
+        {
+          "healthCenterId": 5112,
+          "state": "Lagos State",
+          "lga": "Oshodi/Isolo",
+          "healthCenter": "FAAN Clinic",
+          "organizationuit": "qNqmbqEIsH0"
+        }
+      ]
+    }
+  },
+  {
+    "Shomolu Local Government Area": {
+      "latlng": "6.5335645,3.3841606",
+      "data": [
+        {
+          "healthCenterId": 592,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Akoka Primary Health Centre",
+          "organizationuit": "J532NVVMYEr"
+        },
+        {
+          "healthCenterId": 593,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Cms Primary Health Centre",
+          "organizationuit": "TXXkXAW79tS"
+        },
+        {
+          "healthCenterId": 605,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Akinwunmi Ambode Primary Health Centre",
+          "organizationuit": "GRisLp5Rcy8"
+        },
+        {
+          "healthCenterId": 606,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Ashogbon Primary Health Centre",
+          "organizationuit": "OIIfO4S8pcx"
+        },
+        {
+          "healthCenterId": 1955,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Eva Adelaja Primary Health Centre",
+          "organizationuit": "TLJphLV4S3i"
+        },
+        {
+          "healthCenterId": 1963,
+          "state": "Lagos State",
+          "lga": "Shomolu",
+          "healthCenter": "Mafowoku Primary Health Centre",
+          "organizationuit": "vHgkayUSVzn"
+        }
+      ]
+    }
+  },
+  {
+    "Surulere Local Government Area": {
+      "latlng": "6.4872015,3.3532587",
+      "data": [
+        {
+          "healthCenterId": 585,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Iponri Primary Health Care",
+          "organizationuit": "xqkku0YQQYk"
+        },
+        {
+          "healthCenterId": 586,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Coker Aguda Primary Health Centre",
+          "organizationuit": "p7BAnCikZw3"
+        },
+        {
+          "healthCenterId": 587,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Femi Gbajabiamila Clinic",
+          "organizationuit": "fSspKZniLAL"
+        },
+        {
+          "healthCenterId": 588,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Anjorin Primary Health Centre",
+          "organizationuit": "P55RGVZpAzq"
+        },
+        {
+          "healthCenterId": 589,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Airways Primary Health Centre",
+          "organizationuit": "wFQyFCfACbO"
+        },
+        {
+          "healthCenterId": 590,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Baruwa Primary Health Centre",
+          "organizationuit": "AWbroOvsuiw"
+        },
+        {
+          "healthCenterId": 591,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Akerele Primary Health Centre",
+          "organizationuit": "ZZaeAT6GtV4"
+        },
+        {
+          "healthCenterId": 615,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Orile Primary Health Centre",
+          "organizationuit": "Py3W3yqwR6S"
+        },
+        {
+          "healthCenterId": 1924,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Waterfall Hospital",
+          "organizationuit": "A0Cq8tRC7gd"
+        },
+        {
+          "healthCenterId": 1956,
+          "state": "Lagos State",
+          "lga": "Surulere",
+          "healthCenter": "Ejire Primary Health Centre",
+          "organizationuit": "txoKpDE58nr"
+        }
+      ]
+    }
+  }
+]

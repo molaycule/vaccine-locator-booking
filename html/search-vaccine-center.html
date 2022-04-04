@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COVID—19 Vaccine Locator</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="../dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css"
+        type="text/css">
+    <style>
+        .map {
+            height: 400px;
+            width: 100%;
+        }
+
+        .map canvas {
+            width: 100% !important;
+        }
+
+        .ol-attribution.ol-logo-only,
+        .ol-attribution.ol-uncollapsible {
+            max-width: calc(100% - 3em) !important;
+            height: 1.5em !important;
+        }
+
+        .ol-control button,
+        .ol-attribution,
+        .ol-scale-line-inner {
+            font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif !important;
+        }
+
+        .ol-popup {
+            font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif !important;
+            font-size: 12px;
+            position: absolute;
+            background-color: white;
+            -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+            filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #cccccc;
+            bottom: 12px;
+            left: -50px;
+            min-width: 100px;
+        }
+
+        .ol-popup:after,
+        .ol-popup:before {
+            top: 100%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .ol-popup:after {
+            border-top-color: white;
+            border-width: 10px;
+            left: 48px;
+            margin-left: -10px;
+        }
+
+        .ol-popup:before {
+            border-top-color: #cccccc;
+            border-width: 11px;
+            left: 48px;
+            margin-left: -11px;
+        }
+
+        .ol-popup-closer {
+            text-decoration: none;
+            position: absolute;
+            top: 2px;
+            right: 8px;
+        }
+
+        .ol-popup-closer:after {
+            content: "✖";
+            color: #c3c3c3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="lds-ripple">
+            <div class="lds-pos"></div>
+            <div class="lds-pos"></div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+        data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar" data-navbarbg="skin6">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin6">
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="search-vaccine-center.html">
+                        <span class="logo-text font-bold fs-6 text-white">
+                            COVID—19 Vaccine Locator
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse d-flex w-100" id="navbarSupportedContent" data-navbarbg="skin5">
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav justify-content-end w-100">
+                        <!-- ============================================================== -->
+                        <!-- Quick Links -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic fs-5" href="#"
+                                id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Quick Links
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end user-dd animated"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="https://covid19.ncdc.gov.ng/faq/">Covid-19 FAQ</a>
+                                <a class="dropdown-item" href="https://nphcda.vaccination.gov.ng/">Covid-19 Vaccine</a>
+                                <a class="dropdown-item" href="https://ncdc.gov.ng/"> NCDC Website</a>
+                                <a class="dropdown-item" href="https://www.who.int/">WHO Website</a>
+                                <a class="dropdown-item" href="https://statehouse.gov.ng/covid19/">Covid-19
+                                    Taskforce</a>
+                            </ul>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- Quick Links -->
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar" data-sidebarbg="skin6">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="search-vaccine-center.html" aria-expanded="false"><span class="hide-menu">Search
+                                    Vaccine Center</span></a></li>
+                        <!-- <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                href="check-vaccine-availability.html" aria-expanded="false"><span
+                                    class="hide-menu">Check Vaccine Availability</span></a></li> -->
+                        <li class="sidebar-item"> <a id="vaccine-apointment-link"
+                                class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false"><span
+                                    class="hide-menu">Vaccine Appointment</span></a></li>
+                    </ul>
+
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="page-breadcrumb pb-0">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <h1 class="mb-0 fw-bold">Search Vaccine Center</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Search Form Content -->
+                <!-- ============================================================== -->
+                <div class="row search-form-container d-block">
+                    <div class="col-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <form class="form-horizontal form-material mx-2 row" onsubmit="event.preventDefault();">
+                                    <div class="form-group col-sm-12 col-md-4">
+                                        <label class="col-sm-12">State</label>
+                                        <div class="col-sm-12">
+                                            <select class="form-select shadow-none form-control-line">
+                                                <option>Lagos</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-md-4">
+                                        <label class="col-sm-12">Local Govt Area (LGA)</label>
+                                        <div class="col-sm-12">
+                                            <select id="lga-select" class="form-select shadow-none form-control-line">
+                                                <option value="">Select LGA</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group">
+                                        <label class="col-sm-12">Vaccine Center</label>
+                                        <div class="col-sm-12">
+                                            <select id="health-center-select"
+                                                class="form-select shadow-none form-control-line">
+                                                <option value="">Select LGA</option>
+                                            </select>
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group col-sm-12 col-md-4">
+                                        <label class="col-sm-12 invisible d-none d-md-block">Search</label>
+                                        <div class="col-sm-12">
+                                            <button
+                                                class="btn btn-primary text-white px-5 search-btn w-100">Search</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Search Form Content -->
+                <!-- ============================================================== -->
+                <!-- <div id="map" style="width: 100%; height: 400px;"></div>
+                <div id="popup" class="ol-popup">
+                    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                    <div id="popup-content"></div>
+                </div> -->
+                <!-- ============================================================== -->
+                <!-- Start Search Result Table -->
+                <!-- ============================================================== -->
+                <div class="col-12 search-results-container d-none">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Search Results</h4>
+                            <h6 class="card-subtitle">List of <code>vaccine centers</code> in <span
+                                    id="lga-name"></span>.</h6>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Center ID</th>
+                                        <th scope="col">Center Name</th>
+                                        <th scope="col">Availability</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table-body">
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>1234</td>
+                                        <td>Vaccine Center, Ikeja</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>8989</td>
+                                        <td>Vaccine Center, Ajah</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Search Result Table -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Schedule Modal -->
+                <!-- ============================================================== -->
+                <div id="modal" class="modal align-items-center justify-content-center" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalBasicLabel">Select Date and Time</h5>
+                                <button type="button" class="btn-close close-modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-12">Select Date</label>
+                                    <div class="col-md-12">
+                                        <input type="date" id="date" class="form-control form-control-line" required>
+                                        <p id="date-error"></p>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-12">Select Time</label>
+                                    <div class="col-md-12">
+                                        <input type="time" id="time" class="form-control form-control-line" required>
+                                        <p id="time-error"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close-modal">Close</button>
+                                <button type="button" id="proceed-btn" class="btn btn-primary">Proceed</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Schedule Modal -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- End Page Content -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Right sidebar -->
+                <!-- ============================================================== -->
+                <!-- .right-sidebar -->
+                <!-- ============================================================== -->
+                <!-- End Right sidebar -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- End Page wrapper  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Wrapper -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+        <script src="../assets/libs/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../dist/js/app-style-switcher.js"></script>
+        <!-- Wave Effects -->
+        <script src="../dist/js/waves.js"></script>
+        <!-- Menu sidebar -->
+        <script src="../dist/js/sidebarmenu.js"></script>
+        <!-- Openlayers map -->
+        <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Custom JavaScript -->
+        <script src="../dist/js/custom.js"></script>
+</body>
+
+</html>
