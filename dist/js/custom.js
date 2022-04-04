@@ -1,43 +1,43 @@
 $(function () {
   'use strict';
 
-  // var attribution = new ol.control.Attribution({
-  //   collapsible: false
-  // });
+  var attribution = new ol.control.Attribution({
+    collapsible: false
+  });
 
-  // var map = new ol.Map({
-  //   controls: ol.control.defaults({ attribution: false }).extend([attribution]),
-  //   layers: [
-  //     new ol.layer.Tile({
-  //       source: new ol.source.OSM()
-  //     })
-  //   ],
-  //   target: 'map',
-  //   view: new ol.View({
-  //     center: ol.proj.fromLonLat([3.406448, 6.465422]),
-  //     maxZoom: 18,
-  //     zoom: 12
-  //   })
-  // });
+  var map = new ol.Map({
+    controls: ol.control.defaults({ attribution: false }).extend([attribution]),
+    layers: [
+      new ol.layer.Tile({
+        source: new ol.source.OSM()
+      })
+    ],
+    target: 'map',
+    view: new ol.View({
+      center: ol.proj.fromLonLat([3.406448, 6.465422]),
+      maxZoom: 18,
+      zoom: 12
+    })
+  });
 
-  // var container = document.getElementById('popup');
-  // var content = document.getElementById('popup-content');
-  // var closer = document.getElementById('popup-closer');
+  var container = document.getElementById('popup');
+  var content = document.getElementById('popup-content');
+  var closer = document.getElementById('popup-closer');
 
-  // var overlay = new ol.Overlay({
-  //   element: container
-  //   // autoPan: true,
-  //   // autoPanAnimation: {
-  //   //   duration: 250
-  //   // }
-  // });
-  // map.addOverlay(overlay);
+  var overlay = new ol.Overlay({
+    element: container,
+    autoPan: true,
+    autoPanAnimation: {
+      duration: 250
+    }
+  });
+  map.addOverlay(overlay);
 
-  // closer.onclick = function () {
-  //   overlay.setPosition(undefined);
-  //   closer.blur();
-  //   return false;
-  // };
+  closer.onclick = function () {
+    overlay.setPosition(undefined);
+    closer.blur();
+    return false;
+  };
 
   $('.preloader').fadeOut();
   // this is for close icon when navigation open in mobile view
@@ -97,21 +97,21 @@ $(function () {
   $.getJSON('../../data/la_vac_centers.json', function (data) {
     var items = ['<option value="">Select LGA</option>'];
     $.each(data, function (key, val) {
-      // var geo = Object.values(val)[0]['latlng'].split(',');
-      // var layer = new ol.layer.Vector({
-      //   source: new ol.source.Vector({
-      //     features: [
-      //       new ol.Feature({
-      //         name: Object.keys(val)[0].replace(' Local Government Area', ''),
-      //         value: Object.keys(val)[0],
-      //         geometry: new ol.geom.Point(
-      //           ol.proj.fromLonLat([Number(geo[1]), Number(geo[0])])
-      //         )
-      //       })
-      //     ]
-      //   })
-      // });
-      // map.addLayer(layer);
+      var geo = Object.values(val)[0]['latlng'].split(',');
+      var layer = new ol.layer.Vector({
+        source: new ol.source.Vector({
+          features: [
+            new ol.Feature({
+              name: Object.keys(val)[0].replace(' Local Government Area', ''),
+              value: Object.keys(val)[0],
+              geometry: new ol.geom.Point(
+                ol.proj.fromLonLat([Number(geo[1]), Number(geo[0])])
+              )
+            })
+          ]
+        })
+      });
+      map.addLayer(layer);
       items.push(
         '<option value="' +
           Object.keys(val)[0] +
@@ -140,7 +140,7 @@ $(function () {
                 item.healthCenterId +
                 '</td><td>' +
                 item.healthCenter +
-                '</td><td>Open</td><td><btn class="btn btn-outline-secondary" onclick=' +
+                '</td><td><span class="badge bg-success">Open</span></td><td><btn class="btn btn-outline-primary" onclick=' +
                 '"(function() {document.getElementById(' +
                 "'modal').classList.add(" +
                 "'d-flex'); document.getElementById(" +
@@ -187,31 +187,31 @@ $(function () {
     }
   });
 
-  // map.on('singleclick', function (event) {
-  //   var feature = this.forEachFeatureAtPixel(
-  //     event.pixel,
-  //     function (feature, layer) {
-  //       return feature;
-  //     }
-  //   );
+  map.on('singleclick', function (event) {
+    var feature = this.forEachFeatureAtPixel(
+      event.pixel,
+      function (feature, layer) {
+        return feature;
+      }
+    );
 
-  //   if (map.hasFeatureAtPixel(event.pixel) === true) {
-  //     var coordinate = event.coordinate;
+    if (map.hasFeatureAtPixel(event.pixel) === true) {
+      var coordinate = event.coordinate;
 
-  //     content.innerHTML =
-  //       '<h6 class="text-center font-bold mb-2">' +
-  //       feature.get('name') +
-  //       '</h6><button onclick="window.getVaccineCenter(' +
-  //       "'" +
-  //       feature.get('value') +
-  //       "'" +
-  //       ', true)" class="btn btn-sm btn-outline-secondary">Search</button>';
-  //     overlay.setPosition(coordinate);
-  //   } else {
-  //     overlay.setPosition(undefined);
-  //     closer.blur();
-  //   }
-  // });
+      content.innerHTML =
+        '<h5 class="font-bold mb-2" style="width: 100%;">' +
+        feature.get('name') +
+        '</h5><button onclick="window.getVaccineCenter(' +
+        "'" +
+        feature.get('value') +
+        "'" +
+        ', true)" class="btn btn-outline-primary" style="width: 100%;">Search</button>';
+      overlay.setPosition(coordinate);
+    } else {
+      overlay.setPosition(undefined);
+      closer.blur();
+    }
+  });
 
   // check if string contains number
   function hasNumber(str) {
@@ -363,7 +363,8 @@ $(function () {
         title: 'Schedule Successful',
         text: 'You have successfully scheduled an appointment',
         icon: 'success',
-        confirmButtonText: 'Back to Home Page'
+        confirmButtonText: 'Back to Home Page',
+        confirmButtonColor: '#1e4db7'
       }).then(result => {
         if (result.isConfirmed) {
           window.location.replace('search-vaccine-center.html');
