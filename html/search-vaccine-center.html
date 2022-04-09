@@ -150,7 +150,6 @@
                             <ul class="dropdown-menu dropdown-menu-end user-dd animated"
                                 aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="https://covid19.ncdc.gov.ng/faq/">Covid-19 FAQ</a>
-                                <a class="dropdown-item" href="https://nphcda.vaccination.gov.ng/">Covid-19 Vaccine</a>
                                 <a class="dropdown-item" href="https://ncdc.gov.ng/"> NCDC Website</a>
                                 <a class="dropdown-item" href="https://www.who.int/">WHO Website</a>
                                 <a class="dropdown-item" href="https://statehouse.gov.ng/covid19/">Covid-19
@@ -325,19 +324,31 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="modalBasicLabel">Select Date and Time</h5>
+                                <h5 class="modal-title" id="modalBasicLabel">Fill out the schedule details</h5>
                                 <button type="button" class="btn-close close-modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="form-group col-md-12">
-                                    <label class="col-md-12">Select Date</label>
+                                    <label class="col-md-12">Vaccine Type</label>
+                                    <select id="vaccine-type" class="form-select shadow-none form-control-line">
+                                        <option value="">Select Vaccine Type</option>
+                                        <option value="BioNTech, Pfizer vaccine">BioNTech, Pfizer vaccine</option>
+                                        <option value="Johnson & Johnson vaccine">Johnson & Johnson vaccine</option>
+                                        <option value="Moderna vaccine">Moderna vaccine</option>
+                                        <option value="Oxford, AstraZeneca vaccine">Oxford, AstraZeneca vaccine</option>
+                                        <option value="Sputnik V vaccine">Sputnik V vaccine</option>
+                                    </select>
+                                    <p id="vaccine-type-error"></p>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-12">Date</label>
                                     <div class="col-md-12">
                                         <input type="date" id="date" class="form-control form-control-line" required>
                                         <p id="date-error"></p>
                                     </div>
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label class="col-md-12">Select Time</label>
+                                    <label class="col-md-12">Time</label>
                                     <div class="col-md-12">
                                         <input type="time" id="time" class="form-control form-control-line" required>
                                         <p id="time-error"></p>

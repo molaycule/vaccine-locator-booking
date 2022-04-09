@@ -169,21 +169,32 @@ $(function () {
   });
 
   $('#proceed-btn').on('click', function () {
+    if (!window.selectedVaccineType) {
+      errors.vaccineType = 'Please select a vaccine type';
+      return $('#vaccine-type-error')
+        .text(errors.vaccineType)
+        .css('color', 'red');
+    }
+
     if (
+      window.selectedVaccineType &&
       window.selectedDate &&
       window.selectedTime &&
+      errors.vaccineType === '' &&
       errors.date === '' &&
       errors.time === ''
     ) {
       window.location.href =
         'vaccine-appointment.html?vaccine-center=' +
         window.vaccineCenter +
+        '&vaccine-type=' +
+        window.selectedVaccineType +
         '&date=' +
         window.selectedDate +
         '&time=' +
         window.selectedTime;
     } else {
-      alert('Please select a valid date and time');
+      alert('Please select a valid date, time');
     }
   });
 
@@ -267,6 +278,8 @@ $(function () {
     nin: '',
     dob: '',
     phone: '',
+    email: '',
+    vaccineType: '',
     date: '',
     time: ''
   };
@@ -321,6 +334,23 @@ $(function () {
     }
   });
 
+  $('#email').on('change', function () {
+    var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+    errors.email = 'Not a valid email';
+    if (!pattern.test(this.value)) {
+      $('#email-error').text(errors.email).css('color', 'red');
+    } else {
+      errors.email = '';
+      $('#email-error').text('');
+    }
+  });
+
+  $('#vaccine-type').on('change', function () {
+    errors.vaccineType = '';
+    $('#vaccine-type-error').text(errors.vaccineType);
+    window.selectedVaccineType = this.value;
+  });
+
   $('#date').on('change', function () {
     errors.date = 'Date must be tomorrow or later';
     if (!isValidDate(this.value)) {
@@ -354,11 +384,31 @@ $(function () {
     var nin = $('#nin').val();
     var dob = $('#dob').val();
     var phone = $('#phone').val();
+    var email = $('#email').val();
     var address = $('#address').val();
 
     if (!Object.values(errors).every(error => error === '')) return;
 
-    if (firstName && lastName && gender && nin && dob && phone && address) {
+    if (
+      firstName &&
+      lastName &&
+      gender &&
+      nin &&
+      dob &&
+      phone &&
+      email &&
+      address
+    ) {
+      if ($('#emailCheckbox').is(':checked')) {
+        console.log('Sending email');
+        sendEmail();
+      }
+
+      if ($('#smsCheckbox').is(':checked')) {
+        console.log('Sending sms message');
+        sendSMS();
+      }
+
       Swal.fire({
         title: 'Schedule Successful',
         text: 'You have successfully scheduled an appointment',
@@ -374,26 +424,23 @@ $(function () {
   });
 });
 
-// send email using send grid
+// send email using mailjet
 function sendEmail() {
-  var email = $('#email').val();
-  var name = $('#name').val();
-  var message = $('#message').val();
-  var subject = $('#subject').val();
   var data = {
-    email: email,
-    name: name,
-    message: message,
-    subject: subject
+    email: $('#email').val(),
+    name: $('#firstName').val() + ' ' + $('#lastName').val(),
+    vaccineCenter: new URLSearchParams(window.location.search).get(
+      'vaccine-center'
+    ),
+    vaccineType: new URLSearchParams(window.location.search).get(
+      'vaccine-type'
+    ),
+    date: new URLSearchParams(window.location.search).get('date'),
+    time: new URLSearchParams(window.location.search).get('time')
   };
   $.ajax({
     type: 'POST',
-    url: 'https://api.sendgrid.com/v3/mail/send',
-    headers: {
-      Authorization:
-        'Bearer ' +
-        'SG.O-xHd-w6T0i6UgJ6Uzk-9A.v-_s1YnQ2Q-6x8d6w-J6zpU6bHg-7pXdvk-V-g'
-    },
+    url: 'https://quaint-pleasant-error.glitch.me/send-email',
     contentType: 'application/json',
     data: JSON.stringify(data),
     success: function (data) {
@@ -405,20 +452,38 @@ function sendEmail() {
   });
 }
 
-// send sms using twilio endpoint
+// send sms using mailjet
 function sendSMS() {
+  var firstName = $('#firstName').val();
+  var lastName = $('#lastName').val();
   var phone = $('#phone').val();
-  var message = $('#message').val();
+  var vaccineCenter = new URLSearchParams(window.location.search).get(
+    'vaccine-center'
+  );
+  var vaccineType = new URLSearchParams(window.location.search).get(
+    'vaccine-type'
+  );
+  var date = new URLSearchParams(window.location.search).get('date');
+  var time = new URLSearchParams(window.location.search).get('time');
   var data = {
-    phone: phone,
-    message: message
+    phone: '+234' + phone.substring(1),
+    message:
+      'Dear ' +
+      firstName +
+      ' ' +
+      lastName +
+      ', you have successfully scheduled an appointment. Vaccine Center: ' +
+      vaccineCenter +
+      ', Vaccine Type: ' +
+      vaccineType +
+      ', Date: ' +
+      date +
+      ', Time: ' +
+      time
   };
   $.ajax({
     type: 'POST',
-    url: 'https://api.twilio.com/2010-04-01/Accounts/ACb5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5b5/Messages.json',
-    headers: {
-      Authorization: 'Basic ' + 'QWxhZGRpbjpPcGVuU2VzYW1l'
-    },
+    url: 'https://quaint-pleasant-error.glitch.me/send-sms',
     contentType: 'application/json',
     data: JSON.stringify(data),
     success: function (data) {
