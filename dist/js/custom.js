@@ -99,6 +99,12 @@ $(function () {
     $.each(data, function (key, val) {
       var geo = Object.values(val)[0]['latlng'].split(',');
       var layer = new ol.layer.Vector({
+        style: new ol.style.Style({
+          image: new ol.style.Icon({
+            src: 'http://maps.google.com/intl/en_us/mapfiles/ms/micons/orange-dot.png',
+            scale: 1
+          })
+        }),
         source: new ol.source.Vector({
           features: [
             new ol.Feature({
