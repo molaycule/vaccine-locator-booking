@@ -383,6 +383,19 @@ $(function () {
     $('.modal').addClass('d-none').removeClass('d-flex');
   });
 
+  $('#schedule-btn').attr(
+    'disabled',
+    !$('#emailCheckbox').is(':checked') && !$('#smsCheckbox').is(':checked')
+  );
+
+  $('#emailCheckbox').on('change', function () {
+    $('#schedule-btn').attr('disabled', !$('#emailCheckbox').is(':checked'));
+  });
+
+  $('#smsCheckbox').on('change', function () {
+    $('#schedule-btn').attr('disabled', !$('#smsCheckbox').is(':checked'));
+  });
+
   $('#schedule-btn').on('click', function () {
     var firstName = $('#firstName').val();
     var lastName = $('#lastName').val();
