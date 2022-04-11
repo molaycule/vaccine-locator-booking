@@ -69,6 +69,14 @@ $(function () {
   $(window).ready(setsidebartype);
   $(window).on('resize', setsidebartype);
 
+  $('#about-us').on('click', function () {
+    $('#about-us-modal').addClass('d-flex').removeClass('d-none');
+  });
+
+  $('#contact-us').on('click', function () {
+    $('#contact-us-modal').addClass('d-flex').removeClass('d-none');
+  });
+
   // search button click handler
   $('.search-btn').on('click', function () {
     if ($('#lga-select').val() === '') {
